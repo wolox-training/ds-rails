@@ -1,0 +1,15 @@
+require: rubocop-rails
+Documentation:
+  Enabled: false
+Layout/LineLength:
+  Max: 99
+  IgnoredPatterns: ['\A#', '\s#']
+Style/FrozenStringLiteralComment:
+  Enabled: false
+AllCops:
+  Exclude:
+    - bin/*
+    - db/**
+    - node_modules/**/*
+    - script/**
+    - vendor/**/*
