@@ -6,6 +6,8 @@ Layout/LineLength:
   IgnoredPatterns: ['\A#', '\s#']
 Style/FrozenStringLiteralComment:
   Enabled: false
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
 AllCops:
   Exclude:
     - bin/*
