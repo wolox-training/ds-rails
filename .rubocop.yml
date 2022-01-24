@@ -4,6 +4,8 @@ Documentation:
 Layout/LineLength:
   Max: 99
   IgnoredPatterns: ['\A#', '\s#']
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
 Style/FrozenStringLiteralComment:
   Enabled: false
 Style/ClassAndModuleChildren:
